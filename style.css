@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville&display=swap');
+
+@font-face{
+	font-family: 'Muli Light', 'Libre Baskerville', sans-serif;
+	src: url('Muli-Light.ttf');
+}
+
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+  font-size: 100%;
+  font-family: 'Muli Light', 'Libre Baskerville', sans-serif;
+  color: #444349;
+  line-height: 1.5;
+}
+
+h1,h2,h3,
+ul,ol,
+p,
+img,
+table{
+    margin-bottom: 1.5rem;
+}
+
+.location, .program, .gifts, .faq, .contact {
+  width: 95%;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+ 
+h1{
+  color: #d2ba87;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2{
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5rem;
+ }
+
+h3{
+  font-size: 1.5rem;
+}
+
+a{
+  color: #bd806e;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eda087;
+  transition: color .15s ease-in-out;
+}
+
+.header{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 70% center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+ display: table;
+}
+
+.header-box{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text-box{
+  width: 100%;
+  background: rgba(0,0,0,.4);
+  color: hsla(0,0%,100%,.9);
+  margin: 0 auto;
+  padding: .625rem;
+}
+
+.tagline{
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+}
+
+.tagline::after {
+  display: block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 12.515625rem;
+  margin: .5rem auto;
+}
+
+.date {
+  font-size: 1.25rem;
+  letter-spacing: .15rem;
+  vertical-align: middle;
+}
+
+.date::before, .date::after{
+  display: inline-block;
+  content: "";
+  background-color: #fff;
+  height: 1px;
+  width: 1.5rem;
+  vertical-align: middle;
+  margin: 0 .4rem;
+}
+
+.location p{
+  padding: 0;
+  margin: 0
+}
+
+.tiny-box img{
+  width: 7.5rem;
+}
+
+.tiny-box h3{
+  font-weight: 700;
+}
+
+.tiny-box::after{
+  display: block;
+  content: "";
+  background-color: #444349;
+  height: 2px;
+  width: 5rem;
+  margin: 2rem auto;;
+}
+
+.program, .faq{
+  background: hsla(100,0%,0%,.6);
+  color: #d2ba87;
+  width: 100vw;
+}
+
+.program-content{
+  text-align: left;
+}
+
+.program-content h4{
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  
+}
+
+.gifts img{
+  width: 7.5rem;
+}
+
+.gifts p:last-child{
+  margin-bottom: 0;
+}
+
+.question-group{
+  text-align: left;
+}
+
+.question-group::after{
+  display: block;
+  content: "";
+  background-color: #d2ba87;
+  height: 2px;
+  width: 40%;
+  margin: 2rem auto;
+}
+
+.question-group h3{
+  text-align: center;
+  margin: 0;
+}
+
+.question-group p{
+  margin: 0;
+}
+
+.strong{
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
+}
+
+footer{
+  width: 100vw;
+  height: 10vh;
+  background: #606060;
+  color: #fff;
+  display: table;
+  text-align: center;
+}
+
+.footer-box{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: .8rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
+
+@media (min-width: 760px){
+  .header{
+    background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg) no-repeat center/cover;
+  }
+  .text-box{
+    width: 50%;
+  }
+  .tagline{
+    text-transform: uppercase;
+  }
+  h1{
+    font-size: 5rem;
+  }
+  
+  .tiny-box{
+    display: inline-block;
+    margin: 0 2rem;
+    padding: 0;
+  }
+  .tiny-box::after{
+    display: none;
+  }
+  .program-content h4{
+    text-align: center;
+  }
+  
+  .program-content table{
+    margin: 0 auto;
+  }
+  .question-group{
+    display: inline-block;
+    width: 30vw;
+    vertical-align: top;
+     padding: 1.5rem;
+    margin: .5rem;
+  }
+  .question-group::after{
+    display: none;
+  }
+  footer{
+    min-height: 7vh;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
